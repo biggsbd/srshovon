@@ -138,6 +138,10 @@ a.info-item:hover{border-color:var(--teal)}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 @media(max-width:980px){.grid{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.grid{grid-template-columns:1fr}}
+.card-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.card-grid a{display:block}
+.card-grid img{width:100%;height:auto;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.12);display:block}
+@media(max-width:620px){.card-grid{grid-template-columns:1fr}}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;display:flex;flex-direction:column;gap:10px}
 .card:hover{border-color:var(--teal)}
 .icon{width:52px;height:52px;border-radius:14px;background:var(--chip);display:grid;place-items:center;font-size:26px}
@@ -295,6 +299,7 @@ footer{border-top:1px solid var(--line);padding:34px 0 44px;margin-top:10px}
       <a href="#work">What I Create</a>
       <a href="#pricing">Packages</a>
       <a href="#faq">FAQ</a>
+      <a href="#business-card">Business Card</a>
       <a class="btn btn-primary btn-sm" href="#contact">Contact Me →</a>
     </nav>
   </div>
@@ -576,6 +581,17 @@ footer{border-top:1px solid var(--line);padding:34px 0 44px;margin-top:10px}
         <details><summary>How do payments work?</summary><p>I can work through Fiverr for full buyer protection, or direct payment via Payoneer — whichever you're more comfortable with. We'll agree everything before any work begins.</p></details>
         <details><summary>What do you need from me to start?</summary><p>Just your business name, links to your current pages (if any), and your goal. Logos, photos or brand colors help with design work, but if you don't have them yet, I can create a clean starting style for you.</p></details>
         <details><summary>Can I see a sample before ordering?</summary><p>Yes. For design and content projects I'm happy to make one sample piece in your brand style first, so you know exactly what to expect.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUSINESS CARD -->
+  <section class="section" id="business-card" style="padding-top:10px">
+    <div class="wrap">
+      <div class="section-head"><span class="label">Business Card</span><h2 style="margin-top:10px">My business card</h2><p>Save my contact details — front and back. Tap a card to download it.</p></div>
+      <div class="card-grid">
+        <a href="business-card-front.png" download="Freelancer-Shovon-Business-Card-Front.png"><img src="business-card-front.png" alt="Freelancer Shovon business card — front"></a>
+        <a href="business-card-back.png" download="Freelancer-Shovon-Business-Card-Back.png"><img src="business-card-back.png" alt="Freelancer Shovon business card — back"></a>
       </div>
     </div>
   </section>
